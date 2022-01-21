@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /*CSS Document*/
 
+body {
+  font-family: "Times New Roman", Times, serif;
+}
 .bg-light{
 	background-color: #A9D1FB !important;
 }
