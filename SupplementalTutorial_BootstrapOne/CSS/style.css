@@ -33,6 +33,7 @@
 	font-size: 0.8rem;
 	text-align: center;
 	padding-top: 20px;
+	margin-top: 20px;
 }
 
 .control-width{
@@ -65,4 +66,11 @@
 
 .btn-secondary{
 	background-color: #054B7A;
+}
+
+.accordion-button:not(.collapsed){
+	color: #054B7A;
+	background-color: ##e7f1ff;
+	box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+
 }
