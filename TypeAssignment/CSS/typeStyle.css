@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/*CSS Document*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:400');
+
+* {
+    box-sizing: border-box;
+}
+
+.maincontent {
+    width: 75vw;
+    margin: 1em auto;
+    }
+
+.last-row {padding-bottom: 20px;
+}
+
+.c-header, .a-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.a-header {font-size: 30px;}
+
+.logo-c, .logo-bw, .logo-r {
+  max-width: 300px;
+  height: auto;
+}
+
+.logo-f {
+    max-width: 100%;
+    height: auto;
+}
+
+.button-f {color: aliceblue;
+}
+
+.toneheader {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 67.34px;
+}
+
+.toneheadertwo {
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50.52px;
+}
+
+.toneheaderthree {
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 37.90px;
+}
+
+.toneheaderfour {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28.43px;
+}
+
+.tonebody {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.emTextone {
+    font-family: Raleway, sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.LinkTextOne {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-stretch: normal;
+    color: #007ebe;
+    font-size: 16px;
+}
+
+.TypeMixedBody {
+	font-family: stratos-lights, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.HeaderMixed {
+    font-family: rockwell-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 67.34px;
+}
+
+.HeaderMixedTwo {
+    font-family: rockwell-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50.52px;
+
+}
+
+.HeaderMixedThree {
+    font-family: rockwell-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 37.90px;
+}
+
+.HeaderMixedFour {
+    font-family: rockwell-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28.43px;
+}
+
+.emText {
+    font-family: stratos, sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.LinkText {
+    font-family: stratos, sans-serif;
+    font-weight: 400;
+    color: royalblue;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.t-threeheader {
+    font-family: futura-pt, sans-serif;<br>
+    font-weight: 400;
+    font-style: normal;
+    font-size: 67.34px;
+}
+
+.t-threeheadertwo {
+    font-family: futura-pt, sans-serif;<br>
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50.52px;
+}
+
+.t-threeheaderthree {
+    font-family: futura-pt, sans-serif;<br>
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37.90px;
+}
+
+.t-threeheaderfour {
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28.43px;
+}
+
+.t-threeheaderfive {
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 21.33px;
+}
+
+.t-threebody {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.emTextThree {
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+
+}
