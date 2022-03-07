@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Deepthi Rajagopal | Design system</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="../img/favicon.png">
+
+<!-- This is the link to the toggle hamburger -->
+	 <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+		<div class="p-4 pt-6">
+		  <h1><a href="../index.html" class="logo"><img src="../img/logo_color.png" alt="Deepthi Rajagopal Logo"/></a></h1>
+
+	       <ul class="list-unstyled components">
+
+	          <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+
+			            <ul class="collapse list-unstyled" id="homeSubmenu">
+		                <li>
+		                    <a href="../foundation/type.html">Typography</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/color.html">Color</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/logo.html">Logo</a>
+		                </li>
+			            </ul>
+	          </li>
+
+            <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+               <li>
+                    <a href="../components/component1.html">Navigation</a>
+                </li>
+                <li>
+                    <a href="../components/component2.html">Buttons</a>
+                </li>
+                <li>
+                    <a href="../components/component3.html">Cards</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+              <ul class="collapse list-unstyled" id="PatternsSubmenu">
+                <li>
+                   <a href="../patterns/pattern1.html">Homepage</a>
+               </li>
+               <li>
+                   <a href="../patterns/pattern2.html">Project page</a>
+               </li>
+
+              </ul>
+	          </li>
+
+
+	        </ul>
+
+
+
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+        <div class="container">
+        <div class="row p-5 pt-6">
+          <div class="btn-container"
+               id="content">
+
+            <h1>Buttons</h1>
+
+            <p>This design system includes three styles of buttons, each with three different states.</p>
+            <h2 class="mb-4">Button States</h2>
+            <div class="row mb-4">
+              <div class="col-sm">
+                <h4>Click to interact</h4>
+              </div>
+              <div class="col-sm"><button class="btn btn-primary">Primary button </button></div>
+              <div class="col-sm"><button class="btn btn-secondary">Secondary button</button></div>
+              <div class="col-sm"><button class="btn btn-inverse">Inverse button</button></div>
+            </div>
+
+            <h4>Accessibility Considerations</h4>
+            <p>Buttons should only be used in situations where users need to initiate actions.
+             By applying button styling only to button elements, we can improve accessibility for keyboard
+            users.</p>
+
+            <h4>Usage</h4>
+            <p>Use buttons colors from the colors page, as they are accessibile with respect to color contrast.They also contain descriptive text.</p>
+
+            <h4>Code Examples</h4>
+            <h3>Primary Button</h3>
+            <pre><code>&lt;button class=&quot;btn btn-primary&quot;&gt;Descriptive text&lt;/button&gt;</code></pre>
+
+            <h3>Secondary Button</h3>
+            <pre><code>&lt;button class=&quot;btn btn-secondary&quot;&gt;Descriptive text&lt;/button&gt;</code></pre>
+
+            <h3>Inverse Button</h3>
+            <pre><code>&lt;button class=&quot;btn btn-inverse&quot;&gt;Descriptive text&lt;/button&gt;</code></pre>
+
+          </div> <!-- Content  -->
+        </div><!-- Row  -->
+      </div><!-- Container -->
+</div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
